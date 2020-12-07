@@ -3,6 +3,7 @@ using AdventOfCode2020.Day_3;
 using AdventOfCode2020.Day_4;
 using AdventOfCode2020.Day_5;
 using AdventOfCode2020.Day_6;
+using AdventOfCode2020.Day_7;
 using System;
 
 namespace AdventOfCode2020 {
@@ -26,6 +27,9 @@ namespace AdventOfCode2020 {
 
             Console.WriteLine($"Day 6: {new Day6().Solve()}");
             Console.WriteLine($"Day 6 Bonus: {new Day6().SolveBonus()}");
+
+            Console.WriteLine($"Day 7: {new Day7().Solve()}");
+            Console.WriteLine($"Day 7 Bonus: {new Day7().SolveBonus()}");
         }
 
     }
